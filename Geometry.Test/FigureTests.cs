@@ -8,6 +8,7 @@ namespace Tests
     public class Tests
     {
         private List<IFigure> _figures;
+        
         [SetUp]
         public void Setup()
         {
@@ -23,6 +24,7 @@ namespace Tests
             }
         }
 
+        //TODO: remove this because of uselessness
         [Test]
         public void Test()
         {
